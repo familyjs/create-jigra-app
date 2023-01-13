@@ -1,6 +1,6 @@
 {
   "name": "@jigra/create-app",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create a new Jigra project",
   "author": "Navify Team",
   "homepage": "https://jigrajs.web.app",
@@ -9,7 +9,7 @@
   },
   "main": "./dist/index.js",
   "bin": {
-    "create-jigra-app": "./bin/create-jigra-app"
+    "create-jigra-app": "bin/create-jigra-app"
   },
   "scripts": {
     "pack-assets": "node ./scripts/pack-assets.mjs",
@@ -20,8 +20,7 @@
     "build": "npm run clean && npm run pack-assets && tsc",
     "clean": "rimraf ./dist",
     "watch": "tsc -w",
-    "release": "np",
-    "test": "echo test",
+    "release": "np --no-tests",
     "prepublishOnly": "npm run build"
   },
   "files": [
