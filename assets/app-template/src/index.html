@@ -19,30 +19,14 @@
       src="https://unpkg.com/@navify/pwa-elements@latest/dist/navifypwaelements/navifypwaelements.js"
     ></script>
 
-    <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico" />
-    <link rel="manifest" href="manifest.json" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./css/style.css" />
     <meta name="theme-color" content="#31d53d" />
-
-    <!-- un-comment this code to enable service worker
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js')
-        .then(() => console.log('service worker installed'))
-        .catch(err => console.log('Error', err));
-    }
-  </script>-->
   </head>
   <body>
     <jigra-welcome></jigra-welcome>
 
-    <!--
-    This simple example uses Jigra Core as a bundled file.
-    For large apps, we recommend using a bundler/module loader such as
-    rollup or webpack and importing Jigra using ES2015 imports.
-  -->
-    <script src="jigra.js"></script>
-
-    <script src="js/jigra-welcome.js"></script>
+    <script src="./js/jigra-welcome.js"></script>
   </body>
 </html>

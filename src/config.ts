@@ -10,8 +10,8 @@ export const createConfigFile = async ({ name: appName, dir, 'app-id': appId }: 
   const config = {
     appId,
     appName,
-    bundledWebRuntime: true,
-    webDir: 'www',
+    bundledWebRuntime: false,
+    webDir: 'dist',
     plugins: {
       SplashScreen: {
         launchShowDuration: 0,

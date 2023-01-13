@@ -55,6 +55,6 @@ ${kleur.bold(`${tada} Your Jigra app is ready to go! ${tada}`)}
 Next steps:
   - ${kleur.bold(`cd ${details.dir}/`)}
   - install dependencies (e.g. w/ ${kleur.bold('npm install')})
-  - ${kleur.bold('npx jig sync')}
+  - ${kleur.bold('npm start')}
 `);
 };

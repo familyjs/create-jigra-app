@@ -1,10 +1,13 @@
+import { SplashScreen } from '@jigra/splash-screen';
+import { Camera } from '@jigra/camera';
+
 window.customElements.define(
   'jigra-welcome',
   class extends HTMLElement {
     constructor() {
       super();
 
-      Jigra.Plugins.SplashScreen.hide();
+      SplashScreen.hide();
 
       const root = this.attachShadow({ mode: 'open' });
 
@@ -90,8 +93,6 @@ window.customElements.define(
       const self = this;
 
       self.shadowRoot.querySelector('#take-photo').addEventListener('click', async function (e) {
-        const { Camera } = Jigra.Plugins;
-
         try {
           const photo = await Camera.getPhoto({
             resultType: 'uri',

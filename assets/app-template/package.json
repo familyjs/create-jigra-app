@@ -8,7 +8,9 @@
     "mobile"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "wite",
+    "build": "wite build",
+    "preview": "wite preview"
   },
   "dependencies": {
     "@jigra/core": "{{ JIGRA_VERSION }}",
@@ -16,7 +18,8 @@
     "@jigra/splash-screen": "latest"
   },
   "devDependencies": {
-    "@jigra/cli": "{{ JIGRA_VERSION }}"
+    "@jigra/cli": "{{ JIGRA_VERSION }}",
+    "wite": "^2.9.15"
   },
   "author": "",
   "license": "ISC"
