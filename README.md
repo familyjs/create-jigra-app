@@ -2,8 +2,6 @@
 
 Create a minimal (no JS framework) Jigra app.
 
-> This tool is for Jigra 3, which is in active development
-
 ## Usage
 
 ```
