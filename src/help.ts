@@ -1,5 +1,5 @@
 const help = `
-  Usage: npm init @jigra/app
+  Usage: npm init @jigra/app -- [options]
 
   Options:
 
