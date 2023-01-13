@@ -1,0 +1,21 @@
+{
+  "name": "jigra-app",
+  "version": "1.0.0",
+  "description": "An Amazing Jigra App",
+  "main": "index.js",
+  "keywords": [
+    "jigra",
+    "mobile"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@jigra/core": "{{ JIGRA_VERSION }}"
+  },
+  "devDependencies": {
+    "@jigra/cli": "{{ JIGRA_VERSION }}"
+  },
+  "author": "",
+  "license": "ISC"
+}
