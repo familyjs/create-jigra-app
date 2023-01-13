@@ -11,7 +11,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@jigra/core": "{{ JIGRA_VERSION }}"
+    "@jigra/core": "{{ JIGRA_VERSION }}",
+    "@jigra/camera": "latest",
+    "@jigra/splash-screen": "latest"
   },
   "devDependencies": {
     "@jigra/cli": "{{ JIGRA_VERSION }}"
