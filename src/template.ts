@@ -22,7 +22,7 @@ export const extractTemplate = async (appdir: string, details: OptionValues): Pr
 
 export const applyTemplate = async (p: string): Promise<void> => {
   const contents = await readFile(p, { encoding: 'utf8' });
-  const result = Mustache.render(contents, { JIGRA_VERSION: 'next' });
+  const result = Mustache.render(contents, { JIGRA_VERSION: 'latest' });
 
   await writeFile(p, result, { encoding: 'utf8' });
 };
