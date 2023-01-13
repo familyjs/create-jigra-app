@@ -20,6 +20,14 @@ export const gatherDetails = (initialOptions: Options): Promise<OptionValues> =>
       },
       {
         type: 'text',
+        name: 'dir',
+        message: `What directory should be used for your app?\n`,
+        initial: 'my-app',
+        validate: VALIDATORS.dir,
+        format: (value) => value.trim(),
+      },
+      {
+        type: 'text',
         name: 'package-id',
         message:
           `What should be the Package ID for your app?\n\n` +
@@ -30,14 +38,6 @@ export const gatherDetails = (initialOptions: Options): Promise<OptionValues> =>
           )}\n`,
         initial: 'com.example.app',
         validate: VALIDATORS['package-id'],
-        format: (value) => value.trim(),
-      },
-      {
-        type: 'text',
-        name: 'dir',
-        message: `What directory should be used for your app?\n`,
-        initial: 'my-app',
-        validate: VALIDATORS.dir,
         format: (value) => value.trim(),
       },
     ],
