@@ -34,10 +34,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/navify/jigra.git"
+    "url": "git+https://github.com/navify/create-jigra-app.git"
   },
   "bugs": {
-    "url": "https://github.com/navify/jigra/issues"
+    "url": "https://github.com/navify/create-jigra-app/issues"
   },
   "license": "MIT",
   "husky": {
