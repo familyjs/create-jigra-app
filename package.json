@@ -1,6 +1,6 @@
 {
   "name": "@jigra/create-app",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Create a new Jigra project",
   "author": "Navify Team",
   "homepage": "https://jigrajs.web.app",
