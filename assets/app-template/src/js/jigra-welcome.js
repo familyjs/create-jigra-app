@@ -67,7 +67,7 @@ window.customElements.define(
         <h2>Getting Started</h2>
         <p>
           You'll probably need a UI framework to build a full-featured app. Might we recommend
-          <a target="_blank" href="https://navifyframework.web.app/">Navify</a>?
+          <a target="_blank" href="http://family-js.web.app/">Family</a>?
         </p>
         <p>
           Visit <a href="https://jigrajs.web.app">jigrajs.web.app</a> for information

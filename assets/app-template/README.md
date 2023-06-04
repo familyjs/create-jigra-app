@@ -1,6 +1,6 @@
 ## Created with Jigra Create App
 
-This app was created using [`@jigra/create-app`](https://github.com/navify/create-jigra-app),
+This app was created using [`@jigra/create-app`](https://github.com/familyjs/create-jigra-app),
 and comes with a very minimal shell for building an app.
 
 ### Running this example
